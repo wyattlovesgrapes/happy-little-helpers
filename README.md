@@ -37,15 +37,17 @@ disable_debug_mode() - global function to disable debugging (this is the default
 happy-little-helpers
 ├─ .gitignore
 ├─ README.md
-├─ setup.py
-├─ happy_little_helpers
-│  ├─ __init__.py
-│  ├─ debugger.py
-│  └─ flash_env.py
-└─ tests
+├─ LICENSE
+├─ pyproject.toml
+├─ src/  
+|   └─ happy_little_helpers/
+│     ├─ __init__.py
+│     ├─ debugger.py
+│     └─ flash_env.py
+└─ tests/
    ├─ __init__.py
-   ├─ credentials
-   │  └─ happy-little-helpers
+   ├─ credentials/
+   │  └─ happy-little-helpers/
    │     └─ .env
    ├─ main_test.py
    └─ pythonpath.txt
