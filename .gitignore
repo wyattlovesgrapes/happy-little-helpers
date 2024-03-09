@@ -1,6 +1,8 @@
 # Python
 __pycache__/
 *.pyc
+dist/
+src/happy_little_helpers.egg-info
 
 # Virtual Environment
 venv/

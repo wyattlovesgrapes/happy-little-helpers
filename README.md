@@ -70,3 +70,10 @@ export PYTHONPATH=/home/<username>>/Documents/github/happy-little-helpers/happy_
 
 4. run `python3 tests/main_test.py` from your root directory to print the demo .env retrieved from your credentials flash drive.
 
+## how to build and distribute
+
+```
+python3 -m build
+
+python3 -m twine upload dist/*
+```
