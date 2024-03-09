@@ -1,0 +1,2 @@
+Add to project directory temporarily to test module:
+export PYTHONPATH=/home/<username>/Documents/github/happy-little-helpers/src:$PYTHONPATH
