@@ -1,6 +1,7 @@
 # Default Setting
 DEBUG_MODE = False
 
+
 def debug_print(message):
     """
     Print the message if debug mode is enabled.

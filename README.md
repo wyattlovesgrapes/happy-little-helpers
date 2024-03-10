@@ -2,7 +2,7 @@
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)  
 
-**v0.0.2**  
+**v0.0.3**  
 
 #
 
@@ -14,9 +14,9 @@ happy_little_helpers is a python package that gives you some happy little utils 
 easy flash drive credential management for moving from system to system.
 
 ```
-get_flash_path() - get the path to your credentials flash drive automatically 
+get_flash_path(root_directory) - get the path to your credentials flash drive automatically 
 
-read_env() - check you are retrieving the right credentials
+read_env(flash_path) - check things are working using test credentials
 ```
 ## debugger
 
@@ -60,8 +60,11 @@ happy-little-helpers
 
 ```
 
-export PYTHONPATH=/home/<username>>/Documents/github/happy-little-helpers/happy_little_helpers:$PYTHONPATH
+Linux (Tested in Ubuntu):
+export PYTHONPATH=/home/<username>/Documents/github/happy-little-helpers/src:$PYTHONPATH
 
+Windows 10:
+export PYTHONPATH=C:\Users\<username>\Documents\github\happy-little-helpers\src:$PYTHONPATH
 ```
 
 2. format a flash drive and name the partition `credentials`. 

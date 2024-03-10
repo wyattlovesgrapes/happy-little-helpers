@@ -3,7 +3,6 @@ from happy_little_helpers.debugger import enable_debug_mode
 
 enable_debug_mode()
 
-flash_path = get_flash_path('code-tests')
+flash_path = get_flash_path("happy-little-helpers")
 
 read_env(flash_path)
-
