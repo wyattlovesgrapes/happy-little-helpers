@@ -1,2 +1,7 @@
 Add to project directory temporarily to test module:
+
+Linux (Tested in Ubuntu):
 export PYTHONPATH=/home/<username>/Documents/github/happy-little-helpers/src:$PYTHONPATH
+
+Windows 10:
+export PYTHONPATH=C:\Users\<username>\Documents\github\happy-little-helpers\src:$PYTHONPATH
